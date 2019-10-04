@@ -2,11 +2,11 @@ version: '3'
 
 services:
 
-  poligonos-camada:
+  poligonos:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    container_name: poligonos-camada
+    container_name: poligonos
     ports:
       - 8080:8080
       - 5005:5005
